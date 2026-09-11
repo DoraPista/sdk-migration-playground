@@ -16,6 +16,7 @@ folder from their copy.
 | `rubrics/` | The scoring model, level indicators, and the questions worth asking in any exercise |
 | `mock-interviews/` | Five complete session scripts: order, timings, prompts, hints, scoring sheet |
 | `tools/verify-solutions.ps1` | Runs every exercise's tests, in candidate state or with solutions applied |
+| `prep/quick-fire-answers.md` | Model answers for `prep/quick-fire-questions.md` (read after answering aloud) |
 
 ## Before running a session
 

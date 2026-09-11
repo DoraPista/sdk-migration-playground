@@ -44,6 +44,7 @@ Three ways, depending on what you need:
 
 | Mode | What you do |
 |---|---|
+| **Brillio / Sage interviews** | Start with [PREP_PLAN.md](PREP_PLAN.md): what to prepare before each of the three interviews |
 | **Practice** | Pick a category and work through it. Time yourself against the estimate in each README |
 | **Mock interview** | Follow [INTERVIEW_MODE.md](INTERVIEW_MODE.md): five complete sessions of 45–90 minutes |
 | **Targeted revision** | Use [JOB_COVERAGE.md](JOB_COVERAGE.md) to find the exercises for one job requirement |
@@ -58,8 +59,10 @@ dotnet-interview-gym/
 ├── README.md                 you are here
 ├── INTERVIEW_MODE.md         five mock interview sessions
 ├── JOB_COVERAGE.md           job requirement → exercises
+├── PREP_PLAN.md              the Brillio → Sage interview plan
 ├── InterviewGym.slnx         all projects except the MAUI app
 ├── exercises/                16 categories, 56 exercises
+├── prep/                     quick-fire questions, story bank, Sage context
 ├── shared/
 │   ├── MockServer/           the fake platform (ASP.NET Core) + API.md
 │   ├── MockData/             customers, projects, files, migrations + sample files
@@ -95,7 +98,7 @@ Several exercises talk to a local HTTP server that behaves like the real platfor
 long-running operations, rate limits — and can be told to fail in specific ways.
 
 ```bash
-dotnet run --project shared/MockServer/Gym.MockServer     # http://localhost:5177
+dotnet run --project shared/MockServer/Gym.MockServer     # http://localhost:5080
 ```
 
 Its contract is documented in [shared/MockServer/API.md](shared/MockServer/API.md), including the
