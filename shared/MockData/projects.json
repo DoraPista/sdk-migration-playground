@@ -1,0 +1,58 @@
+[
+  {
+    "id": "PRJ-2001",
+    "customerId": "CUST-1001",
+    "name": "Harbour Bridge Renovation",
+    "parentId": null,
+    "createdAt": "2025-01-26T08:00:00.0000000+00:00"
+  },
+  {
+    "id": "PRJ-2002",
+    "customerId": "CUST-1001",
+    "name": "Harbour Bridge – Structural Survey",
+    "parentId": "PRJ-2001",
+    "createdAt": "2025-02-12T08:00:00.0000000+00:00"
+  },
+  {
+    "id": "PRJ-2003",
+    "customerId": "CUST-1001",
+    "name": "Harbour Bridge – Lighting",
+    "parentId": "PRJ-2001",
+    "createdAt": "2025-03-01T08:00:00.0000000+00:00"
+  },
+  {
+    "id": "PRJ-2004",
+    "customerId": "CUST-1001",
+    "name": "Lighting – Phase 2",
+    "parentId": "PRJ-2003",
+    "createdAt": "2025-03-18T08:00:00.0000000+00:00"
+  },
+  {
+    "id": "PRJ-2005",
+    "customerId": "CUST-1001",
+    "name": "Riverside Library Extension",
+    "parentId": null,
+    "createdAt": "2025-04-04T08:00:00.0000000+00:00"
+  },
+  {
+    "id": "PRJ-2006",
+    "customerId": "CUST-1002",
+    "name": "Ring Road Interchange",
+    "parentId": null,
+    "createdAt": "2025-04-21T08:00:00.0000000+00:00"
+  },
+  {
+    "id": "PRJ-2007",
+    "customerId": "CUST-1002",
+    "name": "Ring Road – Drainage",
+    "parentId": "PRJ-2006",
+    "createdAt": "2025-05-08T08:00:00.0000000+00:00"
+  },
+  {
+    "id": "PRJ-2008",
+    "customerId": "CUST-1003",
+    "name": "Altstadt Facade Scan",
+    "parentId": null,
+    "createdAt": "2025-05-25T08:00:00.0000000+00:00"
+  }
+]

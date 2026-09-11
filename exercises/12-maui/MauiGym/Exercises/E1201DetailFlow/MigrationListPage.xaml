@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiGym.Exercises.E1201DetailFlow"
+             x:Class="MauiGym.Exercises.E1201DetailFlow.MigrationListPage"
+             x:DataType="local:MigrationListViewModel"
+             Title="Migrations">
+    <Grid RowDefinitions="Auto,*" Padding="16" RowSpacing="8">
+        <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}" HorizontalOptions="Start" />
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Migrations}" SelectionMode="Single"
+                        SelectionChanged="OnMigrationSelected">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="local:MigrationSummary">
+                    <VerticalStackLayout Padding="8">
+                        <Label Text="{Binding CustomerName}" FontAttributes="Bold" />
+                        <Label Text="{Binding Id}" FontSize="12" />
+                        <Label Text="{Binding State}" FontSize="12" />
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

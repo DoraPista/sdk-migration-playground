@@ -1,0 +1,44 @@
+[
+  {
+    "id": "PRJ-9001",
+    "customerId": "CUST-1002",
+    "name": "Depot Upgrade",
+    "parentId": "PRJ-9003"
+  },
+  {
+    "id": "PRJ-9002",
+    "customerId": "CUST-1002",
+    "name": "Depot – Roof",
+    "parentId": "PRJ-9001"
+  },
+  {
+    "id": "PRJ-9003",
+    "customerId": "CUST-1002",
+    "name": "Depot – Roof – Gutters",
+    "parentId": "PRJ-9002"
+  },
+  {
+    "id": "PRJ-9004",
+    "customerId": "CUST-1002",
+    "name": "Orphaned Works",
+    "parentId": "PRJ-0000"
+  },
+  {
+    "id": "PRJ-9005",
+    "customerId": "CUST-1002",
+    "name": "Depot Upgrade (copy)",
+    "parentId": null
+  },
+  {
+    "id": "PRJ-9005",
+    "customerId": "CUST-1002",
+    "name": "Depot Upgrade (copy 2)",
+    "parentId": null
+  },
+  {
+    "id": "prj-9006",
+    "customerId": "CUST-1002",
+    "name": "Lower-case legacy id",
+    "parentId": null
+  }
+]

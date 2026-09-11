@@ -1,0 +1,29 @@
+# ----------------------------------------------------------------------
+# Interviewer-only material.
+# Keep /interviewer in a PRIVATE repository or branch.
+# Uncomment the next line before publishing a candidate-facing copy
+# (or run interviewer/tools/make-candidate-copy.ps1, which strips it).
+# /interviewer/
+# ----------------------------------------------------------------------
+
+## Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+.vs/
+.vscode/
+.idea/
+*.DotSettings.user
+TestResults/
+*.trx
+*.binlog
+
+## Generated test data (large files are created on demand)
+shared/MockData/generated/
+**/gym-temp/
+
+## Local migration checkpoints written by demo apps
+*.checkpoint.json

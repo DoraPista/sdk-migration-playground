@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- The acquired company's SDK, as shipped. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>Contoso.Migration</RootNamespace>
+    <NoWarn>$(NoWarn);CS0414;CS0649;CS0169;SYSLIB0014</NoWarn>
+  </PropertyGroup>
+</Project>

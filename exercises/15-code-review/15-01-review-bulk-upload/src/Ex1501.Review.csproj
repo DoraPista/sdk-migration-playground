@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>MigrationKit.Bulk</RootNamespace>
+    <!-- The author turned nullable off to make the build quiet. That is part of the review too. -->
+    <Nullable>disable</Nullable>
+    <!-- The PR as the author left it: their warnings are part of what you are reviewing. -->
+    <NoWarn>$(NoWarn);CS1998;CS4014</NoWarn>
+  </PropertyGroup>
+</Project>

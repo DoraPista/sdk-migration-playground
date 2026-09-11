@@ -1,0 +1,43 @@
+[
+  {
+    "id": "mig-00101",
+    "customerId": "CUST-1001",
+    "destinationId": "dst-00011",
+    "name": "Harbour Bridge archive",
+    "state": "Completed",
+    "createdAt": "2026-02-10T08:00:00.0000000+00:00",
+    "completedAt": "2026-02-10T11:00:00.0000000+00:00"
+  },
+  {
+    "id": "mig-00102",
+    "customerId": "CUST-1001",
+    "destinationId": "dst-00011",
+    "name": "Riverside Library",
+    "state": "Uploading",
+    "createdAt": "2026-03-01T08:00:00.0000000+00:00"
+  },
+  {
+    "id": "mig-00103",
+    "customerId": "CUST-1002",
+    "destinationId": "dst-00012",
+    "name": "Ring Road",
+    "state": "Failed",
+    "createdAt": "2026-02-27T08:00:00.0000000+00:00"
+  },
+  {
+    "id": "mig-00104",
+    "customerId": "CUST-1003",
+    "destinationId": "dst-00013",
+    "name": "Altstadt scans",
+    "state": "Created",
+    "createdAt": "2026-03-02T08:00:00.0000000+00:00"
+  },
+  {
+    "id": "mig-00105",
+    "customerId": "CUST-1004",
+    "destinationId": "dst-00014",
+    "name": "Trust archive (trial)",
+    "state": "Cancelled",
+    "createdAt": "2026-02-23T08:00:00.0000000+00:00"
+  }
+]

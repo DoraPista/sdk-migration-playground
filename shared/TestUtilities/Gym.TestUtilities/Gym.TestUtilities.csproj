@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Reusable, deterministic failure-simulation helpers for exercise test projects. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit" />
+    <PackageReference Include="Microsoft.Extensions.TimeProvider.Testing" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\MockServer\Gym.MockServer\Gym.MockServer.csproj" />
+    <ProjectReference Include="..\..\Models\Gym.Models\Gym.Models.csproj" />
+  </ItemGroup>
+</Project>

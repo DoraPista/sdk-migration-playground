@@ -1,0 +1,128 @@
+<Solution>
+  <Folder Name="/exercises/01-csharp/">
+    <Project Path="exercises\01-csharp\01-01-project-totals-wrong\src\Ex0101.Reporting.csproj" />
+    <Project Path="exercises\01-csharp\01-01-project-totals-wrong\tests\Ex0101.Reporting.Tests.csproj" />
+    <Project Path="exercises\01-csharp\01-02-source-file-abstraction\src\Ex0102.SourceFiles.csproj" />
+    <Project Path="exercises\01-csharp\01-02-source-file-abstraction\tests\Ex0102.SourceFiles.Tests.csproj" />
+    <Project Path="exercises\01-csharp\01-03-provisioning-results\src\Ex0103.Provisioning.csproj" />
+    <Project Path="exercises\01-csharp\01-03-provisioning-results\tests\Ex0103.Provisioning.Tests.csproj" />
+  </Folder>
+  <Folder Name="/exercises/02-debugging/">
+    <Project Path="exercises\02-debugging\02-01-migration-finishes-too-early\src\Ex0201.Execution.csproj" />
+    <Project Path="exercises\02-debugging\02-01-migration-finishes-too-early\tests\Ex0201.Execution.Tests.csproj" />
+    <Project Path="exercises\02-debugging\02-02-failed-migration-reports-success\src\Ex0202.Migration.csproj" />
+    <Project Path="exercises\02-debugging\02-02-failed-migration-reports-success\tests\Ex0202.Migration.Tests.csproj" />
+    <Project Path="exercises\02-debugging\02-03-source-files-stay-locked\src\Ex0203.Transfer.csproj" />
+    <Project Path="exercises\02-debugging\02-03-source-files-stay-locked\tests\Ex0203.Transfer.Tests.csproj" />
+    <Project Path="exercises\02-debugging\02-04-desktop-app-hangs-on-connect\src\Ex0204.Client.csproj" />
+    <Project Path="exercises\02-debugging\02-04-desktop-app-hangs-on-connect\tests\Ex0204.Client.Tests.csproj" />
+    <Project Path="exercises\02-debugging\02-05-uploads-go-to-wrong-customer\src\Ex0205.Hosting.csproj" />
+    <Project Path="exercises\02-debugging\02-05-uploads-go-to-wrong-customer\tests\Ex0205.Hosting.Tests.csproj" />
+    <Project Path="exercises\02-debugging\02-06-server-rejects-every-file\src\Ex0206.Upload.csproj" />
+    <Project Path="exercises\02-debugging\02-06-server-rejects-every-file\tests\Ex0206.Upload.Tests.csproj" />
+  </Folder>
+  <Folder Name="/exercises/03-async/">
+    <Project Path="exercises\03-async\03-01-five-hundred-files\src\Ex0301.Batch.csproj" />
+    <Project Path="exercises\03-async\03-01-five-hundred-files\tests\Ex0301.Batch.Tests.csproj" />
+    <Project Path="exercises\03-async\03-02-cancel-does-not-cancel\src\Ex0302.Engine.csproj" />
+    <Project Path="exercises\03-async\03-02-cancel-does-not-cancel\tests\Ex0302.Engine.Tests.csproj" />
+    <Project Path="exercises\03-async\03-03-batch-upload-errors\src\Ex0303.Batch.csproj" />
+    <Project Path="exercises\03-async\03-03-batch-upload-errors\tests\Ex0303.Batch.Tests.csproj" />
+  </Folder>
+  <Folder Name="/exercises/04-concurrency/">
+    <Project Path="exercises\04-concurrency\04-01-migration-state-drift\src\Ex0401.State.csproj" />
+    <Project Path="exercises\04-concurrency\04-01-migration-state-drift\tests\Ex0401.State.Tests.csproj" />
+    <Project Path="exercises\04-concurrency\04-02-start-clicked-twice\src\Ex0402.Control.csproj" />
+    <Project Path="exercises\04-concurrency\04-02-start-clicked-twice\tests\Ex0402.Control.Tests.csproj" />
+    <Project Path="exercises\04-concurrency\04-03-scan-and-upload-pipeline\src\Ex0403.Pipeline.csproj" />
+    <Project Path="exercises\04-concurrency\04-03-scan-and-upload-pipeline\tests\Ex0403.Pipeline.Tests.csproj" />
+  </Folder>
+  <Folder Name="/exercises/05-http-api/">
+    <Project Path="exercises\05-http-api\05-01-migration-api-client\src\Ex0501.Api.csproj" />
+    <Project Path="exercises\05-http-api\05-01-migration-api-client\tests\Ex0501.Api.Tests.csproj" />
+    <Project Path="exercises\05-http-api\05-02-server-upgrade-breaks-client\src\Ex0502.Status.csproj" />
+    <Project Path="exercises\05-http-api\05-02-server-upgrade-breaks-client\tests\Ex0502.Status.Tests.csproj" />
+  </Folder>
+  <Folder Name="/exercises/06-authentication/">
+    <Project Path="exercises\06-authentication\06-01-token-expires-mid-migration\src\Ex0601.Auth.csproj" />
+    <Project Path="exercises\06-authentication\06-01-token-expires-mid-migration\tests\Ex0601.Auth.Tests.csproj" />
+    <Project Path="exercises\06-authentication\06-02-secrets-in-support-logs\src\Ex0602.Diagnostics.csproj" />
+    <Project Path="exercises\06-authentication\06-02-secrets-in-support-logs\tests\Ex0602.Diagnostics.Tests.csproj" />
+    <Project Path="exercises\06-authentication\06-03-token-cache\src\Ex0603.Tokens.csproj" />
+    <Project Path="exercises\06-authentication\06-03-token-cache\tests\Ex0603.Tokens.Tests.csproj" />
+  </Folder>
+  <Folder Name="/exercises/07-file-transfer/">
+    <Project Path="exercises\07-file-transfer\07-01-large-file-upload\src\Ex0701.LargeFiles.csproj" />
+    <Project Path="exercises\07-file-transfer\07-01-large-file-upload\tests\Ex0701.LargeFiles.Tests.csproj" />
+    <Project Path="exercises\07-file-transfer\07-02-flaky-connection-large-files\src\Ex0702.Resumable.csproj" />
+    <Project Path="exercises\07-file-transfer\07-02-flaky-connection-large-files\tests\Ex0702.Resumable.Tests.csproj" />
+    <Project Path="exercises\07-file-transfer\07-03-duplicate-documents\src\Ex0703.Idempotency.csproj" />
+    <Project Path="exercises\07-file-transfer\07-03-duplicate-documents\tests\Ex0703.Idempotency.Tests.csproj" />
+    <Project Path="exercises\07-file-transfer\07-04-customer-dataset-edge-cases\src\Ex0704.Dataset.csproj" />
+    <Project Path="exercises\07-file-transfer\07-04-customer-dataset-edge-cases\tests\Ex0704.Dataset.Tests.csproj" />
+  </Folder>
+  <Folder Name="/exercises/08-reliability/">
+    <Project Path="exercises\08-reliability\08-01-transient-server-errors\src\Ex0801.Resilience.csproj" />
+    <Project Path="exercises\08-reliability\08-01-transient-server-errors\tests\Ex0801.Resilience.Tests.csproj" />
+    <Project Path="exercises\08-reliability\08-02-provisioning-takes-minutes\src\Ex0802.Provisioning.csproj" />
+    <Project Path="exercises\08-reliability\08-02-provisioning-takes-minutes\tests\Ex0802.Provisioning.Tests.csproj" />
+    <Project Path="exercises\08-reliability\08-03-retry-storm\src\Ex0803.RetryStorm.csproj" />
+    <Project Path="exercises\08-reliability\08-03-retry-storm\tests\Ex0803.RetryStorm.Tests.csproj" />
+  </Folder>
+  <Folder Name="/exercises/09-sdk-design/">
+    <Project Path="exercises\09-sdk-design\09-01-design-the-public-api\src\MigrationKit.Engine\MigrationKit.Engine.csproj" />
+    <Project Path="exercises\09-sdk-design\09-02-migration-manager-review\src\Ex0902.LegacySdk.csproj" />
+    <Project Path="exercises\09-sdk-design\09-03-core-depends-on-ui\src\MigrationKit.Core\MigrationKit.Core.csproj" />
+    <Project Path="exercises\09-sdk-design\09-03-core-depends-on-ui\src\MigrationKit.WpfDemo\MigrationKit.WpfDemo.csproj" />
+    <Project Path="exercises\09-sdk-design\09-03-core-depends-on-ui\tests\MigrationKit.Core.Tests.csproj" />
+    <Project Path="exercises\09-sdk-design\09-04-legacy-host-compatibility\src\Ex0904.Transfer.csproj" />
+    <Project Path="exercises\09-sdk-design\09-04-legacy-host-compatibility\tests\Ex0904.Transfer.Tests.csproj" />
+    <Project Path="exercises\09-sdk-design\09-05-evolving-the-api\src\MigrationKit.Api.V1\MigrationKit.Api.V1.csproj" />
+  </Folder>
+  <Folder Name="/exercises/10-migration/">
+    <Project Path="exercises\10-migration\10-01-migration-workflow-states\src\Ex1001.Workflow.csproj" />
+    <Project Path="exercises\10-migration\10-01-migration-workflow-states\tests\Ex1001.Workflow.Tests.csproj" />
+    <Project Path="exercises\10-migration\10-02-new-workflow-stages\src\Ex1002.Pipeline.csproj" />
+    <Project Path="exercises\10-migration\10-02-new-workflow-stages\tests\Ex1002.Pipeline.Tests.csproj" />
+    <Project Path="exercises\10-migration\10-03-resume-after-crash\src\Ex1003.Resume.csproj" />
+    <Project Path="exercises\10-migration\10-03-resume-after-crash\tests\Ex1003.Resume.Tests.csproj" />
+    <Project Path="exercises\10-migration\10-04-lost-upload-response\src\Ex1004.Ambiguity.csproj" />
+  </Folder>
+  <Folder Name="/exercises/11-wpf/">
+    <Project Path="exercises\11-wpf\11-01-status-panel-not-updating\src\Ex1101.StatusPanel.csproj" />
+    <Project Path="exercises\11-wpf\11-01-status-panel-not-updating\tests\Ex1101.StatusPanel.Tests.csproj" />
+    <Project Path="exercises\11-wpf\11-02-background-migration-progress\src\Ex1102.Progress.csproj" />
+    <Project Path="exercises\11-wpf\11-02-background-migration-progress\tests\Ex1102.Progress.Tests.csproj" />
+    <Project Path="exercises\11-wpf\11-03-memory-grows-per-migration\src\Ex1103.Leaks.csproj" />
+    <Project Path="exercises\11-wpf\11-03-memory-grows-per-migration\tests\Ex1103.Leaks.Tests.csproj" />
+    <Project Path="exercises\11-wpf\11-04-reusable-file-list-control\src\Ex1104.Controls.csproj" />
+    <Project Path="exercises\11-wpf\11-04-reusable-file-list-control\tests\Ex1104.Controls.Tests.csproj" />
+  </Folder>
+  <Folder Name="/exercises/12-maui/">
+    <Project Path="exercises\12-maui\12-04-platform-code-in-viewmodel\src\Ex1204.Export.csproj" />
+    <Project Path="exercises\12-maui\12-04-platform-code-in-viewmodel\tests\Ex1204.Export.Tests.csproj" />
+  </Folder>
+  <Folder Name="/exercises/13-testing/">
+    <Project Path="exercises\13-testing\13-01-unreliable-test-suite\src\Ex1301.Chunked.csproj" />
+    <Project Path="exercises\13-testing\13-01-unreliable-test-suite\tests\Ex1301.Chunked.Tests.csproj" />
+    <Project Path="exercises\13-testing\13-02-testing-retries-and-cancellation\src\Ex1302.Resilient.csproj" />
+    <Project Path="exercises\13-testing\13-02-testing-retries-and-cancellation\tests\Ex1302.Resilient.Tests.csproj" />
+  </Folder>
+  <Folder Name="/exercises/14-performance/">
+    <Project Path="exercises\14-performance\14-01-slow-migration-planning\src\Ex1401.Planning.csproj" />
+    <Project Path="exercises\14-performance\14-01-slow-migration-planning\tests\Ex1401.Planning.Tests.csproj" />
+    <Project Path="exercises\14-performance\14-02-thumbnail-gallery-freezes\src\Ex1402.Gallery.csproj" />
+    <Project Path="exercises\14-performance\14-02-thumbnail-gallery-freezes\tests\Ex1402.Gallery.Tests.csproj" />
+  </Folder>
+  <Folder Name="/exercises/15-code-review/">
+    <Project Path="exercises\15-code-review\15-01-review-bulk-upload\src\Ex1501.Review.csproj" />
+    <Project Path="exercises\15-code-review\15-02-review-migration-window\src\Ex1502.Review.csproj" />
+  </Folder>
+  <Folder Name="/shared/">
+    <Project Path="shared\Gym.Shared.Tests\Gym.Shared.Tests.csproj" />
+    <Project Path="shared\MockServer\Gym.MockServer\Gym.MockServer.csproj" />
+    <Project Path="shared\Models\Gym.Models\Gym.Models.csproj" />
+    <Project Path="shared\TestUtilities\Gym.TestUtilities.Wpf\Gym.TestUtilities.Wpf.csproj" />
+    <Project Path="shared\TestUtilities\Gym.TestUtilities\Gym.TestUtilities.csproj" />
+  </Folder>
+</Solution>

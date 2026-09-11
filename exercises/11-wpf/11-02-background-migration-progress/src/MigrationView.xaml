@@ -1,0 +1,10 @@
+<UserControl x:Class="MigrationKit.Wpf.MigrationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DockPanel Margin="12">
+        <TextBlock x:Name="StatusText" DockPanel.Dock="Top" Text="{Binding Status}" FontWeight="Bold" />
+        <ProgressBar x:Name="ProgressBar" DockPanel.Dock="Top" Height="16" Margin="0,6"
+                     Minimum="0" Maximum="100" Value="{Binding Percent, Mode=OneWay}" />
+        <ListBox x:Name="FileList" ItemsSource="{Binding Files}" />
+    </DockPanel>
+</UserControl>

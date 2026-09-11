@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- Windows-targeted so it can reference the core while the core still needs WPF. -->
+    <TargetFramework>net10.0-windows</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\src\MigrationKit.Core\MigrationKit.Core.csproj" />
+    <ProjectReference Include="$(GymShared)TestUtilities\Gym.TestUtilities\Gym.TestUtilities.csproj" />
+  </ItemGroup>
+</Project>

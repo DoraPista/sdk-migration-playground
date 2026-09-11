@@ -1,0 +1,83 @@
+{
+  "migrationId": "mig-00102",
+  "customerId": "CUST-1001",
+  "stage": "UploadFiles",
+  "lastUpdated": "2026-03-01T08:47:00.0000000+00:00",
+  "totalFiles": 18,
+  "percentComplete": 69,
+  "files": [
+    {
+      "fileId": "F-0001",
+      "relativePath": "documents/project-brief.txt",
+      "status": "Uploaded",
+      "bytesSent": 100,
+      "remoteFileId": "file-00001",
+      "uploadId": null
+    },
+    {
+      "fileId": "F-0002",
+      "relativePath": "documents/specification.pdf",
+      "status": "Uploaded",
+      "bytesSent": 48000,
+      "remoteFileId": "file-00002",
+      "uploadId": null
+    },
+    {
+      "fileId": "F-0003",
+      "relativePath": "survey/survey-data.csv",
+      "status": "Uploaded",
+      "bytesSent": 241157,
+      "remoteFileId": "file-00003",
+      "uploadId": null
+    },
+    {
+      "fileId": "F-0004",
+      "relativePath": "survey/pointcloud-extract.bin",
+      "status": "Uploaded",
+      "bytesSent": 640000,
+      "remoteFileId": "file-00004",
+      "uploadId": null
+    },
+    {
+      "fileId": "F-0005",
+      "relativePath": "images/deck-inspection-001.jpg",
+      "status": "Uploaded",
+      "bytesSent": 182000,
+      "remoteFileId": "file-00005",
+      "uploadId": null
+    },
+    {
+      "fileId": "F-0006",
+      "relativePath": "images/deck-inspection-002.jpg",
+      "status": "Uploaded",
+      "bytesSent": 176500,
+      "remoteFileId": "file-00006",
+      "uploadId": null
+    },
+    {
+      "fileId": "F-0007",
+      "relativePath": "drawings/lighting-layout.dwg",
+      "status": "Uploaded",
+      "bytesSent": 310000,
+      "remoteFileId": "file-00007",
+      "uploadId": null
+    },
+    {
+      "fileId": "F-0008",
+      "relativePath": "drawings/lighting-phase2.dwg",
+      "status": "Uploaded",
+      "bytesSent": 295000,
+      "remoteFileId": "file-00008",
+      "uploadId": null
+    },
+    {
+      "fileId": "F-0009",
+      "relativePath": "documents/empty-notes.txt",
+      "status": "Uploaded",
+      "bytesSent": 0,
+      "remoteFileId": "file-00009",
+      "uploadId": null
+    },
+    {
+      "fileId": "F-0010",
+      "relativePath": "documents/Übersicht Grundriss.

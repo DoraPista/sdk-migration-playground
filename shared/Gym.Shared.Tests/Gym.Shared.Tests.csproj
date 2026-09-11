@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Verifies the shared mock infrastructure itself (not an exercise). Must always be green. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestUtilities\Gym.TestUtilities\Gym.TestUtilities.csproj" />
+  </ItemGroup>
+</Project>

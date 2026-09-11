@@ -1,0 +1,116 @@
+[
+  {
+    "id": "F-9001",
+    "projectId": "PRJ-9005",
+    "relativePath": "documents/tender.pdf",
+    "kind": "Document",
+    "sizeBytes": 125000,
+    "sha256": "0364b5191fd0996d1a013bd317d989fabffa6fdfd3ac6ae5eee8f27991831c7b",
+    "contentType": "application/pdf",
+    "metadata": {
+      "author": "R. Diaz"
+    }
+  },
+  {
+    "id": "F-9001",
+    "projectId": "PRJ-9005",
+    "relativePath": "documents/tender-v2.pdf",
+    "kind": "Document",
+    "sizeBytes": 126400,
+    "sha256": "8a7418d4626a19b6fcc16053495ea02501749fa5f47cc550002c92d67edb282e",
+    "contentType": "application/pdf",
+    "metadata": {}
+  },
+  {
+    "id": "F-9002",
+    "projectId": "PRJ-9999",
+    "relativePath": "images/unknown-project.jpg",
+    "kind": "Image",
+    "sizeBytes": 50000,
+    "sha256": "7ee3530960fbbefcc26e51f9227eb438a743e3fd547249c2f08124ca7f9443f1",
+    "contentType": "image/jpeg",
+    "metadata": {}
+  },
+  {
+    "id": "F-9003",
+    "projectId": "PRJ-9005",
+    "relativePath": "images/negative.jpg",
+    "kind": "Image",
+    "sizeBytes": -1,
+    "sha256": "7a362a7c6fc4b200fd7f983882256d06f51c0b1c6b344c4c9887e2e8e9ade7e8",
+    "contentType": "image/jpeg",
+    "metadata": {}
+  },
+  {
+    "id": "F-9004",
+    "projectId": "PRJ-9005",
+    "relativePath": "documents/bad-hash.docx",
+    "kind": "Document",
+    "sizeBytes": 30000,
+    "sha256": "not-a-hash",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "metadata": {}
+  },
+  {
+    "id": "F-9005",
+    "projectId": "PRJ-9005",
+    "relativePath": "../../Windows/System32/drivers/etc/hosts",
+    "kind": "Document",
+    "sizeBytes": 824,
+    "sha256": "5c96f3fb3cdd5f3c9d7b968e6a526e39d1dcdbcef2376c076e2df8429499536a",
+    "contentType": "text/plain",
+    "metadata": {}
+  },
+  {
+    "id": "F-9006",
+    "projectId": "PRJ-9005",
+    "relativePath": "",
+    "kind": "Document",
+    "sizeBytes": 10,
+    "sha256": "5e06a7657f3ebdd9cc407cff2581d4f4fe2e4630507bcb8b06dc3d2bcf8aec17",
+    "contentType": "text/plain",
+    "metadata": {}
+  },
+  {
+    "id": "F-9007",
+    "projectId": "PRJ-9005",
+    "relativePath": "images/photo-with-bad-metadata.jpg",
+    "kind": "Image",
+    "sizeBytes": 95000,
+    "sha256": "35ce2de323fa3213cfa311e1e0818344fa19f33845e4c99558338acd36bde8ca",
+    "contentType": "image/jpeg",
+    "metadata": {
+      "capturedAt": "last tuesday",
+      "width": "wide",
+      "tags": "not-an-array"
+    }
+  },
+  {
+    "id": "F-9008",
+    "projectId": "PRJ-9002",
+    "relativePath": "drawings/roof.dwg",
+    "kind": "Hologram",
+    "sizeBytes": 44000,
+    "sha256": "9545e47a0cd389a3310011d67101849dda22b6817118f31f1f4dcb6a86a9c805",
+    "contentType": null,
+    "metadata": null
+  },
+  {
+    "id": "F-9009",
+    "projectId": "prj-9006",
+    "relativePath": "documents/legacy.txt",
+    "kind": "Document",
+    "sizeBytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "contentType": "text/plain",
+    "metadata": {}
+  },
+  {
+    "id": "F-9010",
+    "relativePath": "documents/no-project.txt",
+    "kind": "Document",
+    "sizeBytes": 12,
+    "sha256": "2f6dc274490344e35c8b5719fe7e4751962039773f5af090bc97dcfe1a6012ab",
+    "contentType": "text/plain"
+  }
+]

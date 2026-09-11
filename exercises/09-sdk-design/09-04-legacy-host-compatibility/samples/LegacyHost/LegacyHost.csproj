@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    A minimal stand-in for the customer's .NET Framework 4.8 application.
+    Deliberately NOT part of the solution: it only builds once the library targets .NET Standard 2.0.
+      dotnet build exercises/09-sdk-design/09-04-legacy-host-compatibility/samples/LegacyHost
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>LegacyHost</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Ex0904.Transfer.csproj" />
+  </ItemGroup>
+</Project>

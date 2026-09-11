@@ -1,0 +1,31 @@
+# Line endings are part of this repository's correctness, not a style preference.
+#
+# shared/MockData holds real file content whose SHA-256 hashes and byte sizes are recorded in
+# files.json and asserted by the exercises (07-04, 02-06, 01-02 and others). If Git rewrote LF to
+# CRLF on checkout, every one of those tests would fail on a fresh clone for reasons that have
+# nothing to do with the exercise. Treat that tree as binary so the bytes never change.
+
+# Normalise text in the repository, and check it out as LF everywhere.
+* text=auto eol=lf
+
+# Mock data: byte-for-byte identical on every machine, always.
+shared/MockData/** -text
+
+# Windows scripts keep CRLF.
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Binary formats Git should never try to convert or diff.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.dll binary
+*.exe binary
+*.snk binary
+*.ttf binary
+*.otf binary

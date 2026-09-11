@@ -1,0 +1,26 @@
+[
+  {
+    "id": "CUST-1001",
+    "name": "Northwind Architects",
+    "region": "westeurope",
+    "tier": "Enterprise"
+  },
+  {
+    "id": "CUST-1002",
+    "name": "Contoso Civil Engineering",
+    "region": "northeurope",
+    "tier": "Standard"
+  },
+  {
+    "id": "CUST-1003",
+    "name": "Fabrikam Surveying GmbH",
+    "region": "germanywestcentral",
+    "tier": "Standard"
+  },
+  {
+    "id": "CUST-1004",
+    "name": "Tailspin Heritage Trust",
+    "region": "uksouth",
+    "tier": "Trial"
+  }
+]

@@ -1,0 +1,26 @@
+<Project>
+  <!-- Shared build settings for every project in the gym. -->
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>false</IsPackable>
+    <!-- Lets the solution build (not run) WPF projects on macOS/Linux. -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591;NU1603</NoWarn>
+    <GymRoot>$(MSBuildThisFileDirectory)</GymRoot>
+    <GymShared>$(MSBuildThisFileDirectory)shared\</GymShared>
+  </PropertyGroup>
+
+  <!-- Test projects: anything whose name ends with .Tests -->
+  <PropertyGroup Condition="$(MSBuildProjectName.EndsWith('.Tests'))">
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+  <ItemGroup Condition="$(MSBuildProjectName.EndsWith('.Tests'))">
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" PrivateAssets="all" />
+    <Using Include="Xunit" />
+  </ItemGroup>
+</Project>

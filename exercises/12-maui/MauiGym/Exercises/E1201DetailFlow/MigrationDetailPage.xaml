@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiGym.Exercises.E1201DetailFlow"
+             x:Class="MauiGym.Exercises.E1201DetailFlow.MigrationDetailPage"
+             x:DataType="local:MigrationDetailViewModel"
+             Title="{Binding Title}">
+    <VerticalStackLayout Padding="16" Spacing="8">
+        <Label Text="{Binding Detail.Id}" FontSize="12" />
+        <Label Text="{Binding Detail.State}" FontAttributes="Bold" />
+        <Label Text="Recent files" Margin="0,12,0,0" FontAttributes="Bold" />
+        <CollectionView ItemsSource="{Binding Detail.RecentFiles}" HeightRequest="160">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="x:String">
+                    <Label Text="{Binding .}" />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button Text="Back" Clicked="OnBackClicked" HorizontalOptions="Start" />
+    </VerticalStackLayout>
+</ContentPage>

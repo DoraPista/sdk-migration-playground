@@ -1,0 +1,236 @@
+[
+  {
+    "id": "F-0001",
+    "projectId": "PRJ-2001",
+    "relativePath": "documents/project-brief.txt",
+    "kind": "Document",
+    "sizeBytes": 100,
+    "sha256": "d5275381efbde965942955cd9e56cd1ffd34692a0c6ba85cc5236f34aeceab60",
+    "contentType": "text/plain",
+    "metadata": {
+      "author": "E. Okafor",
+      "tags": [
+        "brief",
+        "scope"
+      ]
+    }
+  },
+  {
+    "id": "F-0002",
+    "projectId": "PRJ-2001",
+    "relativePath": "documents/specification.pdf",
+    "kind": "Document",
+    "sizeBytes": 48000,
+    "sha256": "7a85acf0a5dad925c045f28d655beaeeab4ec142d07a2a907477f11a1dac2783",
+    "contentType": "application/pdf",
+    "metadata": {
+      "author": "E. Okafor",
+      "pages": 18
+    }
+  },
+  {
+    "id": "F-0003",
+    "projectId": "PRJ-2002",
+    "relativePath": "survey/survey-data.csv",
+    "kind": "Document",
+    "sizeBytes": 241157,
+    "sha256": "315834aedde3055dd885721958618fd00840a2593e1551b9ed674fdc1105ee75",
+    "contentType": "text/csv",
+    "metadata": {
+      "instrument": "Leica TS16",
+      "crs": "EPSG:25832"
+    }
+  },
+  {
+    "id": "F-0004",
+    "projectId": "PRJ-2002",
+    "relativePath": "survey/pointcloud-extract.bin",
+    "kind": "Asset",
+    "sizeBytes": 640000,
+    "sha256": "460b4de08e6f6bca164d98f2dfd009605a9ae6c9a40e1472e888844b7b00f20a",
+    "contentType": "application/octet-stream",
+    "metadata": {
+      "points": 40000
+    }
+  },
+  {
+    "id": "F-0005",
+    "projectId": "PRJ-2002",
+    "relativePath": "images/deck-inspection-001.jpg",
+    "kind": "Image",
+    "sizeBytes": 182000,
+    "sha256": "a34ebb9973ee720f800f8c4b58e1881f495ff13b62caf80fb4d360621d0b8aef",
+    "contentType": "image/jpeg",
+    "metadata": {
+      "capturedAt": "2026-01-31T08:00:00.0000000+00:00",
+      "width": 4032,
+      "height": 3024
+    }
+  },
+  {
+    "id": "F-0006",
+    "projectId": "PRJ-2002",
+    "relativePath": "images/deck-inspection-002.jpg",
+    "kind": "Image",
+    "sizeBytes": 176500,
+    "sha256": "7582b09d15850b9996ddab07e515d265b30b178efe5e2a76ba2c2a7ab53b08fc",
+    "contentType": "image/jpeg",
+    "metadata": {
+      "capturedAt": "2026-01-31T08:04:00.0000000+00:00",
+      "width": 4032,
+      "height": 3024
+    }
+  },
+  {
+    "id": "F-0007",
+    "projectId": "PRJ-2003",
+    "relativePath": "drawings/lighting-layout.dwg",
+    "kind": "Drawing",
+    "sizeBytes": 310000,
+    "sha256": "5ffff044e44ec2c0b3428da256ecba54027c7d5a3b9b129360f87c1ddd3f31d3",
+    "contentType": "application/acad",
+    "metadata": {
+      "revision": "C"
+    }
+  },
+  {
+    "id": "F-0008",
+    "projectId": "PRJ-2004",
+    "relativePath": "drawings/lighting-phase2.dwg",
+    "kind": "Drawing",
+    "sizeBytes": 295000,
+    "sha256": "594d40da179e807004d23d5dfd53bb1d31bdd56d85974d346a579c120d2c96c3",
+    "contentType": "application/acad",
+    "metadata": {
+      "revision": "A"
+    }
+  },
+  {
+    "id": "F-0009",
+    "projectId": "PRJ-2004",
+    "relativePath": "documents/empty-notes.txt",
+    "kind": "Document",
+    "sizeBytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "contentType": "text/plain",
+    "metadata": {
+      "author": "J. Park"
+    }
+  },
+  {
+    "id": "F-0010",
+    "projectId": "PRJ-2005",
+    "relativePath": "documents/Übersicht Grundriss.txt",
+    "kind": "Document",
+    "sizeBytes": 63,
+    "sha256": "44a6faa363fbecf6505acd76f370f2ed75b27be40207e562e6eef65bb08335ca",
+    "contentType": "text/plain",
+    "metadata": {
+      "language": "de"
+    }
+  },
+  {
+    "id": "F-0011",
+    "projectId": "PRJ-2005",
+    "relativePath": "images/設計図-01.png",
+    "kind": "Image",
+    "sizeBytes": 96000,
+    "sha256": "e3877c89c5e99340f5460975b8cb46c4d9fc601bcc98cad579a5c12e17bc5f1e",
+    "contentType": "image/png",
+    "metadata": {
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  {
+    "id": "F-0012",
+    "projectId": "PRJ-2005",
+    "relativePath": "documents/Résumé – José Núñez.txt",
+    "kind": "Document",
+    "sizeBytes": 42,
+    "sha256": "065ebf5e4c65d56045904deff7f16cfa87b6de7d8f525c72059c1c340ef76331",
+    "contentType": "text/plain",
+    "metadata": {
+      "language": "es"
+    }
+  },
+  {
+    "id": "F-0013",
+    "projectId": "PRJ-2005",
+    "relativePath": "documents/naïve café menu \uD83D\uDE00.txt",
+    "kind": "Document",
+    "sizeBytes": 36,
+    "sha256": "f53e53693cd4c4012eef3bf8c2f9c690d25d8081564d4425be48132d6bfee879",
+    "contentType": "text/plain",
+    "metadata": {}
+  },
+  {
+    "id": "F-0014",
+    "projectId": "PRJ-2006",
+    "relativePath": "images/site-photo-017.jpg",
+    "kind": "Image",
+    "sizeBytes": 210000,
+    "sha256": "9f2c1d0e3b4a5968778695a4b3c2d1e0f9e8d7c6b5a4938271605f4e3d2c1b0a",
+    "contentType": "image/jpeg",
+    "metadata": {
+      "capturedAt": "2026-02-18T08:00:00.0000000+00:00"
+    }
+  },
+  {
+    "id": "F-0015",
+    "projectId": "PRJ-2006",
+    "relativePath": "documents/missing-appendix.pdf",
+    "kind": "Document",
+    "sizeBytes": 20000,
+    "sha256": "97b43944e65e7dc5b5e853ea2780e4d48cc4433dc952c10faff37d11d194a14f",
+    "contentType": "application/pdf",
+    "metadata": {}
+  },
+  {
+    "id": "F-0016",
+    "projectId": "PRJ-2007",
+    "relativePath": "documents/drainage-report.txt",
+    "kind": "Document",
+    "sizeBytes": 33600,
+    "sha256": "f6ec0f93d992ba864fe1f6f2df704ac9db526e9b27e2b0b7c15e9f93788b76f4",
+    "contentType": "text/plain",
+    "metadata": {
+      "author": "M. Lindqvist"
+    }
+  },
+  {
+    "id": "F-0017",
+    "projectId": "PRJ-2007",
+    "relativePath": "images/facade-render.png",
+    "kind": "Image",
+    "sizeBytes": 1450000,
+    "sha256": "aabdfe8c0d6f8d6298fd77eb2ae7466124d075d335fb79b2fb40236358bd3878",
+    "contentType": "image/png",
+    "metadata": {
+      "width": 7680,
+      "height": 4320
+    }
+  },
+  {
+    "id": "F-0018",
+    "projectId": "PRJ-2008",
+    "relativePath": "scans/facade-north.e57",
+    "kind": "Asset",
+    "sizeBytes": 820000,
+    "sha256": "7ec9e4aa9f566cdc96612726ba46af6f443ea8d3a802761ef6b3e14f0f65cea2",
+    "contentType": "application/octet-stream",
+    "metadata": {
+      "scanner": "FARO Focus"
+    }
+  },
+  {
+    "id": "F-0019",
+    "projectId": "PRJ-2008",
+    "relativePath": "metadata/scan-register.json",
+    "kind": "Metadata",
+    "sizeBytes": 75,
+    "sha256": "464d245aa4ba2340dd320b8b4b765e241ad081d11172439e15019ea5c429778c",
+    "contentType": "application/json",
+    "metadata": {}
+  }
+]

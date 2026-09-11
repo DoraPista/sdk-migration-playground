@@ -1,0 +1,19 @@
+<Window x:Class="MigrationKit.WpfDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MigrationKit demo" Height="380" Width="560">
+    <DockPanel Margin="12">
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,0,0,8">
+            <Button x:Name="StartButton" Content="Start migration" Padding="12,4" Click="OnStartClicked" />
+            <TextBlock x:Name="ProgressText" Margin="12,6,0,0" Text="Idle" />
+        </StackPanel>
+        <ListView x:Name="FileList">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="File" Width="380" DisplayMemberBinding="{Binding Path}" />
+                    <GridViewColumn Header="Status" Width="100" DisplayMemberBinding="{Binding Status}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </DockPanel>
+</Window>

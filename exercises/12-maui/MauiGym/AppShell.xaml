@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:detail="clr-namespace:MauiGym.Exercises.E1201DetailFlow"
+       xmlns:board="clr-namespace:MauiGym.Exercises.E1202MigrationList"
+       xmlns:lifecycle="clr-namespace:MauiGym.Exercises.E1203Lifecycle"
+       x:Class="MauiGym.AppShell"
+       Title="MAUI Gym">
+    <TabBar>
+        <ShellContent Title="12-01 Detail flow" ContentTemplate="{DataTemplate detail:MigrationListPage}" Route="migrations" />
+        <ShellContent Title="12-02 Board" ContentTemplate="{DataTemplate board:MigrationBoardPage}" Route="board" />
+        <ShellContent Title="12-03 Background" ContentTemplate="{DataTemplate lifecycle:BackgroundMigrationPage}" Route="background" />
+    </TabBar>
+</Shell>

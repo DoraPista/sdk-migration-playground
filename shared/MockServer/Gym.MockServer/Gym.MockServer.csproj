@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!--
+    Local stand-in for the Azure-hosted Migration Platform API.
+    Runs standalone (dotnet run) or in-process from tests (MockServer.StartAsync).
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Gym.MockServer</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Models\Gym.Models\Gym.Models.csproj" />
+  </ItemGroup>
+</Project>

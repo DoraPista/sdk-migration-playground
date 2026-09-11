@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- The public API of MigrationKit 1.4, as shipped. -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>MigrationKit</RootNamespace>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>MigrationKit.Api.V1</AssemblyName>
+  </PropertyGroup>
+</Project>

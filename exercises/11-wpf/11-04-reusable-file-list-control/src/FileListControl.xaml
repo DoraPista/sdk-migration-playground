@@ -1,0 +1,13 @@
+<UserControl x:Class="MigrationKit.Wpf.FileListControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ListView x:Name="Files" Background="#FFFDFDFD" BorderBrush="#FFCCCCCC"
+              MouseDoubleClick="OnRowDoubleClick" SelectionChanged="OnSelectionChanged">
+        <ListView.View>
+            <GridView>
+                <GridViewColumn Header="Migration file" Width="320" DisplayMemberBinding="{Binding Name}" />
+                <GridViewColumn Header="Status" Width="120" DisplayMemberBinding="{Binding Status}" />
+            </GridView>
+        </ListView.View>
+    </ListView>
+</UserControl>

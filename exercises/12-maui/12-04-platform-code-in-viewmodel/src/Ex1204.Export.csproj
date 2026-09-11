@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- The app's view-model layer. No MAUI reference on purpose: the app supplies the platform pieces. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>MauiGym.Export</RootNamespace>
+  </PropertyGroup>
+</Project>

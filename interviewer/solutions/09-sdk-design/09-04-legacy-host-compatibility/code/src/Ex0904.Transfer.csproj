@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- One target that every host can reference: .NET Framework 4.8, .NET 10, MAUI. -->
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>MigrationKit.Transfer</RootNamespace>
+    <AssemblyName>MigrationKit.Transfer</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Things that are part of the shared framework on .NET 10, but packages on .NET Standard 2.0. -->
+    <PackageReference Include="System.Text.Json" />
+    <PackageReference Include="System.Net.Http.Json" />
+    <PackageReference Include="Microsoft.Bcl.TimeProvider" />
+  </ItemGroup>
+</Project>
