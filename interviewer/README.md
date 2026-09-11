@@ -17,6 +17,7 @@ folder from their copy.
 | `mock-interviews/` | Five complete session scripts: order, timings, prompts, hints, scoring sheet |
 | `tools/verify-solutions.ps1` | Runs every exercise's tests, in candidate state or with solutions applied |
 | `prep/quick-fire-answers.md` | Model answers for `prep/quick-fire-questions.md` (read after answering aloud) |
+| `prep/sage-interview-notes.md` | What each question in `prep/sage-interview-questions.md` probes, and what a strong answer covers |
 
 ## Before running a session
 

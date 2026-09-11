@@ -50,6 +50,10 @@ know, prepare both parts for both rounds.
 Read [prep/sage-context.md](prep/sage-context.md) first. It covers what is publicly known about Sage's
 desktop-to-cloud migration, what the SDK probably does, and which exercises match which part of it.
 
+Then answer the questions in [prep/sage-interview-questions.md](prep/sage-interview-questions.md) out loud: 55
+questions a Sage interviewer could ask about this project, plus the coding tasks most likely to come up. The
+notes on each are in `interviewer/prep/sage-interview-notes.md`.
+
 ### Technical round: the job itself
 
 In order of how close each exercise is to the probable project:

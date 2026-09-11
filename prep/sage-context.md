@@ -14,6 +14,12 @@ both in an interview without overclaiming. Researched in September 2026. Check a
   4. Choose what to restore: company data, customized forms, web transactions.
   5. Some settings are not supported in the cloud. For example, *SmartPosting* is unavailable, so the posting
      method should be set to real-time.
+- **Sage UK is bringing Sage 50 Accounts onto Azure.** According to a UK Sage partner, Sage UK announced an
+  early adopter programme for a hosted Sage 50 Accounts: *"hosted on an Azure platform by Sage UK and …
+  accessible via a web browser"*, with the Sage 50 interface unchanged. It replaces the networking and permission
+  problems of Remote Data Access (formerly Sage Drive). The page does not say how existing company data moves
+  in, and that may be exactly this SDK's job.
+- **Customers already have a Sage account** (Sage ID): one sign-in for Sage 50's connected services.
 - **In the UK, Sage ships a migration tool** (Sage 50 Accounts → Sage Accounting). It includes a validation
   routine that checks the data will convert correctly before the migration runs.
 - **The desktop products are .NET Framework applications.** Published system requirements list .NET Framework
@@ -22,7 +28,8 @@ both in an interview without overclaiming. Researched in September 2026. Check a
 
 ## Probably true (a guess, not confirmed)
 
-The "Migration Agent SDK" in the job ad most likely **automates the manual process above**. It would be a
+The "Migration Agent SDK" in the job ad most likely **automates moving a company's data into one of these hosted
+editions**: the UK's hosted Sage 50 Accounts, the US cloud edition, or both. It would be a
 DLL used by the desktop product (or by a small agent app) that:
 
 - signs the customer in (the authentication service in the ad),
@@ -51,7 +58,7 @@ backup-upload-restore flow — is that close?"* It shows you researched the comp
 | One very large file | Streaming, chunking, resume, hashing, memory | 07-01, 07-02 |
 | Restoring twice | Idempotency keys, and the server as the source of truth | 10-04, 07-03 |
 | Accounting data integrity | Money is `decimal`, never `double`. Totals must match between source and destination. A duplicated transaction is a financial error, not a cosmetic one | 01-01, 10-01 |
-| Signing in from a desktop app | A desktop app cannot keep a secret. Public-client flows (authorization code with PKCE, in the system browser) and secure token storage | 06-01, 06-02 |
+| Signing in from a desktop app | A desktop app cannot keep a secret. Public-client flows (authorization code with PKCE, in the system browser) and secure token storage. Customers already sign in with a Sage account, so the SDK may be able to reuse the desktop product's sign-in | 06-01, 06-02 |
 | Customer networks | Proxies, TLS inspection, flaky links, laptops going to sleep | 16-03 |
 | Supporting it after release | Logs without secrets, correlation IDs, a support bundle a customer can send | 06-02 |
 
@@ -88,3 +95,7 @@ record of who changed what. **AR / AP**: accounts receivable (money owed to you)
 - [Sage 50 U.S. Edition system requirements](https://kb.sage.com/selfservice/viewContent.do?externalId=111569&sliceId=1)
 - [Sage 200 Professional system requirements (PDF)](https://cim-software.co.uk/wp-content/uploads/2023/04/Sage-200-Professional-System-Requirements-4766.pdf)
 - [Sage developer community: integration with Sage 50 desktop](https://developer-community.sage.com/topic/105-integration-with-sage-50-desktop/)
+- [Tradebox (Sage partner): Sage 50 Cloud Accounts hosted online](https://help.tradebox.co.uk/sage-50-online-hosted/)
+- [Sage: Sage ID](https://help-sage50.na.sage.com/en-us/2024/Content/BusinessServices/WEB/Sage_ID.htm)
+- [Glassdoor: Sage interview questions, Newcastle upon Tyne](https://www.glassdoor.co.uk/Interview/Sage-Newcastle-upon-Tyne-Interview-Questions-EI_IE1150.0,4_IL.5,24_IM1138.htm)
+- [Comparably: Sage mission and values](https://www.comparably.com/companies/sage/mission)

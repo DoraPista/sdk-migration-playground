@@ -62,7 +62,7 @@ dotnet-interview-gym/
 ├── PREP_PLAN.md              the Brillio → Sage interview plan
 ├── InterviewGym.slnx         all projects except the MAUI app
 ├── exercises/                16 categories, 56 exercises
-├── prep/                     quick-fire questions, story bank, Sage context
+├── prep/                     quick-fire and Sage questions, story bank, Sage context
 ├── shared/
 │   ├── MockServer/           the fake platform (ASP.NET Core) + API.md
 │   ├── MockData/             customers, projects, files, migrations + sample files
