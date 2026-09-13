@@ -20,6 +20,7 @@ obj/
 TestResults/
 *.trx
 *.binlog
+*.proj.Backup.tmp
 
 ## Generated test data (large files are created on demand)
 shared/MockData/generated/
@@ -27,3 +28,6 @@ shared/MockData/generated/
 
 ## Local migration checkpoints written by demo apps
 *.checkpoint.json
+
+## Your progress and editor choice in the gym command
+.gym/
