@@ -25,5 +25,8 @@
     <PackageVersion Include="Microsoft.Win32.Registry" Version="5.0.0" />
     <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.4.0" />
 
+    <!-- The gym command (tools/gym.cs) -->
+    <PackageVersion Include="Spectre.Console" Version="0.57.2" />
+
   </ItemGroup>
 </Project>

@@ -1,0 +1,3 @@
+# Editors that honour .ignore files (VS Code, Cursor, ripgrep) leave these out of project-wide search,
+# so searching while practising doesn't turn up the answers. The files can still be opened directly.
+interviewer/
